@@ -1,2 +1,7 @@
 <app-add-item (onAddTask)="submitData($event)"></app-add-item>
-<app-item-sequence *ngFor="let task of tasks" [task]="task" (deleteTask)="onclickDelete($event)" (toggleReminder)="toggleSet(task)"></app-item-sequence>
+<app-item-sequence
+  *ngFor="let task of tasks"
+  [task]="task"
+  (deleteTask)="onclickDelete($event)"
+  (toggleReminder)="toggleSet(task)"
+></app-item-sequence>

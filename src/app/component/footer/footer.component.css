@@ -1,13 +1,10 @@
-div{
-    display: flex;
-    justify-content: center;
-    position:relative;
-    top:10px;
-    margin-bottom: 15px;
-    margin-top:15px;
-
-}
-a{
-    position: relative;
-    left:198px;
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  margin: 60px 0px 0px 150px;
+  a {
+    margin-left: 40px;
+  }
 }
